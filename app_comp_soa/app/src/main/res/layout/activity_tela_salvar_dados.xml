@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/svSalvarDados"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".telaSalvarDados">
+    android:
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:gravity="center_horizontal"
+            android:text="@string/tlSalvarDadosTitulo"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagemResultado" />
+
+        // POSTO
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblPosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:maxLength="200"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadosLblPosto"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etApelidoPosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textColor="@color/amarelo"
+            android:textColorHint="@color/preto"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        // DATA
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadosLblData"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:editable="false"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="date"
+            android:textColor="@color/amarelo"
+            android:textColorHint="@color/cinza"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+        // COMBUSTIVEL
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblComb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadoslblTipoComb"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbEtanol"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Etanol"
+                android:textColor="@color/new_cinza_escuro"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/rbGasolina"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Gasolina"
+                android:textColor="@color/new_cinza_escuro"
+                android:textSize="25sp" />
+
+
+        </RadioGroup>
+
+        // VALORES
+
+        // VALOR LITRO
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblValorLitro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadosLblValorLitro"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etValorLitro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:digits="1234567890,"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:textColor="@color/amarelo"
+            android:textColorHint="@color/cinza"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        //TOTAL DE LITROS
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblTotalLitros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadosLblTotalLitros"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTotLitros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:digits="1234567890,"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:textColor="@color/amarelo"
+            android:textColorHint="@color/cinza"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        //TOTAL DE LITROS
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tvSalvarDadosLblValorTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/tlSalvarDadosLblValorTotal"
+            android:textColor="@color/new_cinza_escuro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etValorTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:digits="1234567890,"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:textColor="@color/amarelo"
+            android:textColorHint="@color/cinza"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        // botao
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:shadowDx="20"
+            android:shadowDy="20"
+            android:text="@string/tlSalvarDadosBtnSalvar"
+            android:textColor="@color/new_cinza_fundo_claro"
+            android:textStyle="bold"
+            app:backgroundTint="@color/new_preto"
+            app:elevation="30dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vai do quê?</string>
+    <string name="main">Nós te ajudaremos a escolher a melhor opção</string>
+    <string name="btnMain">Começar</string>
+    <string name="tlCompLbl">Insira os valores em reais (R$) dos combustíveis nos campos abaixo</string>
+    <string name="etanol">ETANOL</string>
+    <string name="gasolina">GASOLINA</string>
+    <string name="btnComp">Comparar</string>
+    <string name="tlResultadoLbl">Recomendamos</string>
+    <string name="tlResultadoBtn">Voltar</string>
+    <string name="tlResultadoCheckBox">Gravar Resultado</string>
+    <string name="tlSalvarDadosTitulo">Salvar Dados</string>
+    <string name="tlSalvarDadosLblPosto">Apelido do Posto</string>
+    <string name="tlSalvarDadosLblData">Data do Abastecimento</string>
+    <string name="tlSalvarDadoslblTipoComb">Você Abasteceu Com?</string>
+    <string name="tlSalvarDadosLblValorLitro">Valor do Litro R$</string>
+    <string name="tlSalvarDadosLblTotalLitros">Total de Litros</string>
+    <string name="tlSalvarDadosLblValorTotal">Valor Total R$</string>
+    <string name="tlSalvarDadosBtnSalvar">Salvar</string>
+    <string name="menu_item_meu_hist">Meu Histórico</string>
+    <string name="menu_item_bluetooh">Compartilhar Dados</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+
+
+    <string name="lblTelaComp">Valores</string>
+    <string name="lblTelaRes">Resultado</string>
+    <string name="lblTelaSalvar">Salvar</string>
+    <string name="lblTelaHist">Meu Histórico</string>
+
+</resources>
