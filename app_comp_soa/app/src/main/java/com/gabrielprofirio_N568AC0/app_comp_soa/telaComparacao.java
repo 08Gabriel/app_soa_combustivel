@@ -35,6 +35,7 @@ public class telaComparacao extends AppCompatActivity {
         comparar = findViewById(R.id.btnComparar);
         etEtanol = findViewById(R.id.etValorEtanol);
         etGasolina = findViewById(R.id.etValorGas);
+        etEtanol.requestFocus();
 
 
 

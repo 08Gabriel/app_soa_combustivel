@@ -53,12 +53,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="@color/new_preto"
             android:ems="10"
             android:fontFamily="@font/poppins"
             android:gravity="center"
             android:inputType="textPersonName"
             android:textColor="@color/amarelo"
+            android:textColorHighlight="@color/new_preto"
             android:textColorHint="@color/preto"
+            android:textColorLink="@color/new_preto"
             android:textSize="23sp"
             android:textStyle="bold" />
 
@@ -170,6 +173,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="@color/new_preto"
             android:digits="1234567890,"
             android:ems="10"
             android:fontFamily="@font/poppins"
@@ -177,7 +181,9 @@
             android:inputType="numberDecimal"
             android:maxLength="5"
             android:textColor="@color/amarelo"
+            android:textColorHighlight="@color/new_preto"
             android:textColorHint="@color/cinza"
+            android:textColorLink="@color/new_preto"
             android:textSize="23sp"
             android:textStyle="bold" />
 
@@ -204,6 +210,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="@color/new_preto"
             android:digits="1234567890,"
             android:ems="10"
             android:fontFamily="@font/poppins"
@@ -211,7 +218,9 @@
             android:inputType="numberDecimal"
             android:maxLength="5"
             android:textColor="@color/amarelo"
+            android:textColorHighlight="@color/new_preto"
             android:textColorHint="@color/cinza"
+            android:textColorLink="@color/new_preto"
             android:textSize="23sp"
             android:textStyle="bold" />
 
@@ -238,6 +247,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="@color/new_preto"
             android:digits="1234567890,"
             android:ems="10"
             android:fontFamily="@font/poppins"
@@ -245,7 +255,9 @@
             android:inputType="numberDecimal"
             android:maxLength="5"
             android:textColor="@color/amarelo"
+            android:textColorHighlight="@color/new_preto"
             android:textColorHint="@color/cinza"
+            android:textColorLink="@color/new_preto"
             android:textSize="23sp"
             android:textStyle="bold" />
 
